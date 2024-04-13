@@ -22,12 +22,6 @@ export async function POST(request: Request) {
     );
   }
 
-  if (event.id !== process.env.STRIPE_WEBHOOK_ID) {
-    return new Response(`Webhook ID does not match: ${event.id}`, {
-      status: 400,
-    });
-  }
-
   const session = event.data.object as Stripe.Checkout.Session;
 
   if (!session?.metadata?.userId) {
