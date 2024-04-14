@@ -41,7 +41,7 @@ const Dashboard = ({ subscriptionPlan }: PageProps) => {
 
         <div className="flex items-center gap-4">
           <Link href="https://inspiron-summary.vercel.app/">
-            <Button>Summary Web</Button>
+            <Button>Web Summarizer</Button>
           </Link>
           <UploadButton isSubscribed={subscriptionPlan.isSubscribed} />
         </div>
