@@ -13,16 +13,12 @@ export default function Home() {
             Inspiron AI. is now public!
           </p>
         </div>
-        <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-          Chat with your <span className="text-blue-600">documents</span> in
-          seconds.
+        <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl text-center text-gray-900">
+          Inspiron <span className="text-red-600">Ai</span>
         </h1>
-        <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg">
-          Summarizer allows you to have conversation with any PDF document. Just
-          upload your document and start chatting and asking questions right
-          away.
+        <p className="mt-5 max-w-prose text-lg text-gray-700">
+          All your Educational needs under one plartform
         </p>
-
         <Link
           className={buttonVariants({
             size: "lg",
@@ -36,7 +32,7 @@ export default function Home() {
 
       {/* value propositiion section */}
       <div>
-        <div className="relative isolate">
+        <div className="relative mt-20 lg:mt-40">
           <div
             aria-hidden="true"
             className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
